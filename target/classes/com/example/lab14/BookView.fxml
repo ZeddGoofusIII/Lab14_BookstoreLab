@@ -6,8 +6,7 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-
-<AnchorPane fx:controller="com.example.lab14.BookstoreController" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.lab14.BookstoreController">
    <children>
       <Label layoutX="84.0" layoutY="64.0" text="Title" />
       <Label layoutX="83.0" layoutY="105.0" text="Price" />
@@ -18,7 +17,7 @@
       <TextField fx:id="quantity" layoutX="377.0" layoutY="60.0" />
       <TextField fx:id="discount" layoutX="377.0" layoutY="101.0" />
       <Button layoutX="261.0" layoutY="162.0" mnemonicParsing="false" onAction="#order" text="Place Order" />
-      <Label fx:id="info" layoutX="186.0" layoutY="262.0" text="Awaiting order information">
+      <Label fx:id="info" alignment="CENTER" layoutX="3.0" layoutY="262.0" prefHeight="30.0" prefWidth="592.0" text="Awaiting order information">
          <font>
             <Font size="20.0" />
          </font>
