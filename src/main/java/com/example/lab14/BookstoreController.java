@@ -11,6 +11,6 @@ public class BookstoreController {
     private TextField title, price, discount, quantity;
 
     public void order() {
-        info.setText(OrderManager.placeOrder(title, price, quantity, discount));
+        info.setText(OrderManager.placeOrder(title.getText(), price.getText(), quantity.getText(), discount.getText()));
     }
 }
